@@ -1,0 +1,35 @@
+.text-center{
+    text-align: center
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 66px;
+    color:grey;
+    padding: 29px;
+    margin: 0 3px;
+    border: 2px black solid;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: white;
+    font-family: monospace;
+}
+button:hover{
+    background-color: rgba(240, 240, 240, 0.923);
+}
+.row{
+    margin: 7px 0;
+}
+.row input{
+    font-size: 26px;
+    font-family: monospace;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 0px;
+    /*width: 270px;
+    height: 50px;*/
+}
